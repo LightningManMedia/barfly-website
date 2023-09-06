@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css?family=Work+Sans:500,400,600|Urbanist:600,800");
+
+body { 
+    background-color: rgb(46, 41, 48);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-self: stretch;
+    padding: 24px;
+    row-gap: 120px;
+}
+
+h1, h2, h3, h4 { 
+    color: white;
+    font-family: Urbanist, Helvetica;
+}
+
+h1 { 
+    letter-spacing: 1.12px;
+    font-size: 56px;
+    line-height: 60px;
+    font-weight: 800;
+
+}
+
+h2 { 
+    font-size: 32px;
+}
+
+p, li, blockquote, figcaption, a { 
+    font-family: "Work Sans", Helvetica;
+}
+
+.top-container { 
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-section { 
+    gap: 80px;
+    display: flex;
+    flex-direction: column;
+}
+
+.explanation-section { 
+    background-color: rgb(46, 41, 48);
+    border-radius: 16px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-image { 
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    height: 725px;
+}
+
+.center { 
+    text-align: center;
+}
+
+.cards { 
+    display: flex;
+    gap: 16px;
+    align-items: flex-start;
+}
+
+.card { 
+    text-align: center;
+}
+
+.step { 
+    font-size: 22px;
+}
+
+.description-section { 
+    display: flex;
+    gap: 112px;
+    align-items: flex-start;
+}
+
+.quote-container { 
+    /* padding: 80px 150px; */
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+}
+
+.quote-section { 
+    display: flex;
+}
+
+.quote-card { 
+    background-color: rgb(26, 23, 28);
+    border-radius: 16px;
+    padding: 24px;
+    align-self: stretch;
+}
